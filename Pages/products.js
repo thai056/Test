@@ -1,9 +1,11 @@
+import MainLayout from '../layouts/MainLayouts'
 const ProductsPage = () => {
     return (
         
-        <div>Products</div>
-
-
+        <MainLayout>
+           <div>ProductsPage</div>
+        </MainLayout>
+        
     )
 }
 

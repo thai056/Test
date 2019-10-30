@@ -1,10 +1,11 @@
+import MainLayout from '../layouts/MainLayouts'
+
 const HomePage = () => {
     return (
-        //JSX HTML
-        <div>Home Page</div>
-
-
-    )
+       <MainLayout>
+           <div>HomePage</div>
+        </MainLayout>
+    ) 
 }
 
 export default HomePage;

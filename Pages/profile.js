@@ -1,7 +1,10 @@
+import MainLayout from '../layouts/MainLayouts'
 const ProfilePage = () => {
     return (
-        <div>Profile</div>
 
+        <MainLayout>
+            <div>ProfilePage</div>
+        </MainLayout>
 
     )
 }
